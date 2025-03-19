@@ -1,0 +1,58 @@
+.container{
+    position: fixed;
+    
+    
+    
+
+}
+.item{
+    position: relative;
+    background-color: linear-gradient(to top,#182237,#253352 );
+
+    border-radius: 18px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.bgContainer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    
+
+} 
+.image{
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.notification{
+    font-size: 14px;
+    color: var(--textSoft);
+    font-weight: 500;
+    
+}
+.button{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: #5d57c9;
+    border: none;
+    color: white;
+    cursor: pointer;
+    max-width: max-content ;
+    margin-top: 10px;
+}

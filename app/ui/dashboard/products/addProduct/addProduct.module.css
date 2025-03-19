@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.form input, .form select, .form textarea{
+    padding: 30px;
+    flex: 1;
+    border-radius: 18px;
+    border: 1px solid #2e374a;
+    background-color: transparent;
+    color: var(--textSoft);
+    margin: 20px 0;
+}
+
+.form input{width: 45%;
+}
